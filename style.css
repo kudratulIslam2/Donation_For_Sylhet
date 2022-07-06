@@ -26,12 +26,11 @@ body {
 }
 
 button {
-    padding: 17px 35px;
-    font-size: 20px;
-    color: aliceblue;
     background-color: orange;
+    color: aliceblue;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
+    padding: 20px 35px;
 }
 
 .amount p {
@@ -52,7 +51,7 @@ button {
 }
 
 .Donation h3 {
-    font-size: 25px;
+    font-size: 20px;
     color: gray;
 }
 
@@ -118,4 +117,61 @@ button {
 .right-side h1 {
     font-size: 45px;
     padding-top: 10%;
+}
+
+.My_Update {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 50px;
+
+}
+
+.My_Update h1 {
+    font-size: 45px;
+}
+
+.My_Update p {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.email-bar {
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 20vh;
+    padding-bottom: 50px;
+    background-color: antiquewhite;
+}
+
+.in-box {
+    display: flex;
+    background-color: lightblue;
+    margin-left: 340px;
+    margin-right: 300px;
+    margin-top: 45px;
+    margin-bottom: 20px;
+    padding-top:20px ;
+
+}
+
+#Subscribe-button {
+    background-color: red;
+    color: aliceblue;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 35px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    height: 150px;
+}
+footer p{
+    color: white;
+}
+footer h2{
+    color: tomato;
+    padding-top: 10px;
 }
